@@ -79,8 +79,7 @@ my_dict["name"] = "Olha"
 print(my_dict)
 print("name" in my_dict)  # Output: True
 print("age" in my_dict)
-git add main.py  # Output: True
-git commit -m "Update main.py"  # Output: True
+
 
 
  
