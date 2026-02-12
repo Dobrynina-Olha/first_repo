@@ -70,5 +70,66 @@ users = [
 
 print(get_upcoming_birthdays(users))
 
+ 
 
 
+
+def add_one(number):
+
+    return number +1
+    add_one(5)
+
+print(add_one)
+ 
+
+x = "Olha,"
+y = len(x)
+print("Hello, " + x + " how are you?")
+print(y)
+
+
+
+menu = ["wraps", "sandwiches", "soup", "salad"]
+print("Our menu:")
+for item in menu:
+    print(item)
+
+
+
+food = ["1", "2", "3"]
+print("select food:")
+for number in food:
+    print(number)
+
+
+user_profile = {"name": "Wendy", "status": "active"}
+print("\nUser data:")
+for key in user_profile:
+    print(f"{key}: {user_profile[key]}")
+
+
+person = {"name": "Olha", "age": 30, "city": "Kyiv"}
+print("User data:")
+for x in person:
+    print(f"{x}: {person[x]}") 
+
+def greet():
+    return "Hello,"
+print("\n", greet(), "stranger")
+
+age = int(input("\nСкільки тобі років? "))
+if age >=99:
+    print("Схоже, ти з іншої планети")
+else:           
+    print("\nв наступному році тобі виповниться:", age + 1)
+
+person = {"name": "Olha", "age": 30, "city": "Kyiv"}
+print("\n" + "User data:")
+for x in person:
+    print(f"{x}: {person[x]}") 
+
+my_lucky_number = 7
+guess = int(input("Введи щасливий номер: "))
+while my_lucky_number != guess:
+    guess = int(input("Упс, не вгадав, введи інший номер: "))
+print("Поздоровляємо!")
