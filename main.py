@@ -1,8 +1,10 @@
 #Завдання 1
 
-from datetime import datetime, date as date_class
-def get_days_from_today(date_str: str) -> int:
-    try:
+from datetime import datetime
+def get_days_from_today(date: str) -> int: | ValueError:
+    """The function calculates the number of days between a date and the current date
+    Args: 
+            try:
         given_date = datetime.strptime(date_str, "%Y-%m-%d").date()
         today = date_class.today()
         delta = today - given_date
